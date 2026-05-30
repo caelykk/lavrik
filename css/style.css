@@ -35,6 +35,8 @@ a
 .header
 {
     padding: 37px 0 41px 0;
+    box-shadow: 0 0 9px 4px rgba(239, 241, 243, 1);
+    margin-bottom: 27px;
 }
 
 .header__wrapper,
@@ -109,6 +111,22 @@ a
     font-weight: 900;
     display: inline-block;
     color: #1d9d73;
+}
+
+
+.main__about
+{
+    margin: 0 -87px;
+}
+
+
+
+.main__about_item
+{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 87px;
+    width: calc(100% / 2 - 174px);
 }
 
 /* .row
